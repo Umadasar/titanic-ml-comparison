@@ -78,7 +78,7 @@ Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
 ---
 
-## 📌 References
+##  References
 - [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)  
 - [Scikit-learn Documentation](https://scikit-learn.org/stable/)  
 
