@@ -1,4 +1,4 @@
-# Titanic ML Model Comparison 🚢
+# Titanic ML Model Comparison 
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24-orange)
@@ -6,21 +6,21 @@
 
 ---
 
-## 🎯 Objective
+##  Objective
 The goal of this project is to **compare multiple machine learning algorithms** on the Titanic dataset to predict passenger survival.  
 Models compared: Decision Tree, Random Forest, SVM, kNN, Naive Bayes.  
 Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)  
 - **Target:** `Survived` (0 = No, 1 = Yes)  
 
 ---
 
 <details>
-<summary>⚙️ Methodology (click to expand)</summary>
+<summary>️ Methodology (click to expand)</summary>
 
 1. **Data Preprocessing**  
    - Dropped irrelevant columns (`PassengerId`, `Name`, `Ticket`, `Cabin`)  
@@ -43,7 +43,7 @@ Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
 ---
 
-## 📈 Results
+##  Results
 
 | Model          | Accuracy | Precision | Recall  | F1-score | ROC-AUC |
 |----------------|----------|-----------|---------|----------|---------|
@@ -55,14 +55,14 @@ Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC.
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 - Bar chart: Compare Accuracy, Precision, Recall, F1-score across models  
 - ROC Curves: Compare true positive rate vs. false positive rate for each model  
 
 ---
 
 <details>
-<summary>📝 Conclusion (click to expand)</summary>
+<summary> Conclusion (click to expand)</summary>
 
 - **Decision Tree** achieved the highest accuracy (83.2%)  
 - **Random Forest** achieved the best ROC-AUC (0.845), making it the most balanced model  
